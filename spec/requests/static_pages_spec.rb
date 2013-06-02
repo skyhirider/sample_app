@@ -15,7 +15,7 @@ let(:base_title) {"Ruby on Rails Tutorial Sample App"}
     it "should have the title 'Home'" do
       visit '/static_pages/home'
       page.should have_selector('title',
-                        :text => "#{base_title} | Home")
+                        :text => "#{base_title}")
     end
   end
 
